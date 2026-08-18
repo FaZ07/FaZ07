@@ -1,43 +1,40 @@
 # Mohamed Fazil B
 
-M.Tech CSE, graduating 2027. Coimbatore.
+M.Tech CSE, graduating 2027. Coimbatore, India.
 
-I build things that run without a network connection and give you the same
-answer every time. Almost everything here is solo work, with tests, because
-I don't trust code I haven't run twice.
+I work on machine learning and full-stack systems, with a focus on
+applications that run offline and produce repeatable results.
 
-### Worth looking at
+### Projects
 
-**[LifeLine](https://github.com/FaZ07/Confluence-LifeFind)** — missing person
-search. Name, photo, last-seen location go in; it fans out across sources and
-ranks the leads. The search radius grows with how long the person has been
-gone, which sounds obvious, but none of the tools I looked at did it. 90 tests.
-Works offline. [live](https://confluence-life-find.vercel.app)
+**[LifeLine](https://github.com/FaZ07/Confluence-LifeFind)** — Missing person
+search. Takes a name, photo and last-seen location, searches across multiple
+sources and ranks the results. The search radius adjusts based on how long the
+person has been missing. Runs offline.
+[Live demo](https://confluence-life-find.vercel.app)
 
-**[SentinelVision](https://github.com/FaZ07/SentinelVision)** — anomaly
-detection on MVTec, 0.858 mean AUROC across the 15 categories. I also built a
-multiscale version I was certain would beat it. It didn't, so it isn't here.
+**[SentinelVision](https://github.com/FaZ07/SentinelVision)** — Industrial
+anomaly detection on the MVTec dataset. 0.858 mean AUROC across the 15
+categories.
 
-**[AutoYield AI](https://github.com/FaZ07/AutoYield-AI)** — wafer defect
-inspection on WM-811K. Rebuilt from screenshots of a tool I couldn't get
-access to.
+**[AutoYield AI](https://github.com/FaZ07/AutoYield-AI)** — Wafer defect
+inspection on the WM-811K dataset. Defect classification, saliency maps, drift
+monitoring and scheduled retraining.
 
-**[DOPPLER](https://github.com/FaZ07/doppler)** — tracks how fast stories are
-moving across six live sources. No paid APIs, largely because I didn't want to
-pay for any.
+**[DOPPLER](https://github.com/FaZ07/doppler)** — Measures how quickly topics
+are moving across six live sources and scores them.
 
-**[raahi](https://github.com/FaZ07/raahi)** — what's happening in a city right
-now, as opposed to what's located in it. Built over a weekend for a hackathon,
-48 tests. [live](https://raahi-blue.vercel.app)
+**[raahi](https://github.com/FaZ07/raahi)** — Shows what is currently happening
+in a city rather than what is located in it. Built for a hackathon.
+[Live demo](https://raahi-blue.vercel.app)
 
-**[promptdiff](https://github.com/FaZ07/promptdiff)** — I kept breaking prompts
-without noticing. This records the old output and diffs it in CI.
+**[promptdiff](https://github.com/FaZ07/promptdiff)** — Records prompt outputs
+and compares them in CI, so a change in behaviour is visible before it ships.
 
-### Otherwise
+### About
 
-Won the Flinders University AI hackathon (Australia), 2026.
+Winner, Flinders University AI Hackathon (Australia), 2026.
 
-Python, FastAPI, React, FAISS, PyTorch. I develop on Windows, which explains
-some of the more defensive code.
+Python, FastAPI, React, FAISS, PyTorch, Docker.
 
 mohamedfazil1812700@gmail.com
